@@ -15,7 +15,7 @@ import java.io.IOException;
 
 //인증인가 처리 filter
 @Slf4j(topic = "AuthFilter")
-@Component
+//@Component
 @Order(2)
 public class AuthFilter implements Filter {
 
